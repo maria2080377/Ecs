@@ -1,0 +1,12 @@
+build/
+*.o
+*.out
+*.exe
+*.so
+*.dylib
+.DS_Store
+.vscode/
+*.swp
+*.log
+reports/*.csv
+!reports/audit_report.csv
