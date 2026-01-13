@@ -1,1 +1,9 @@
-
+log_id,entity_type,entity_id,operation,performed_by,performed_at,details
+1,user,1,insert,1,2024-01-15 10:00:00,"Создан администратор admin@store.com"
+2,product,1,insert,1,2024-01-15 10:05:00,"Добавлен товар Ноутбук Lenovo, цена: 50000"
+3,product,2,insert,1,2024-01-15 10:10:00,"Добавлен товар Смартфон Samsung, цена: 30000"
+4,order,1,insert,3,2024-01-15 11:00:00,"Создан заказ #1 на сумму 50000"
+5,order,1,update,2,2024-01-15 11:30:00,"Статус изменен: pending -> approved"
+6,order,1,update,1,2024-01-15 12:00:00,"Статус изменен: approved -> completed"
+7,product,1,update,1,2024-01-15 14:00:00,"Цена изменена с 50000 на 45000"
+8,user,3,update,1,2024-01-15 15:00:00,"Уровень лояльности изменен: 0 -> 1"
